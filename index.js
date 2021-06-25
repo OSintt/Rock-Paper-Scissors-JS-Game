@@ -67,28 +67,28 @@ function comparar(usuario, computadora) {
         ties.innerHTML = tiesCount;
     }
     if (usuario === "r" && computadora === "s") {
-        respuesta.innerHTML = "Ganó <bold>Player</bold> con Roca!";
+        respuesta.innerHTML = "<bold>Ganaste</bold> con Roca!";
         winsCount = winsCount + 1;
         wins.innerHTML = winsCount;
     } else if (usuario === "s" && computadora === "p") {
-        respuesta.innerHTML = "Ganó <bold>Player</bold> con Tijeras!";
+        respuesta.innerHTML = "<bold>Ganaste</bold> con Tijeras!";
         winsCount = winsCount + 1;
         wins.innerHTML = winsCount;
     } else if (usuario === "p" && computadora === "r") {
-        respuesta.innerHTML = "Ganó <bold>Player</bold> con Papel!";
+        respuesta.innerHTML = "<bold>Ganaste</bold> con Papel!";
         winsCount = winsCount + 1;
         wins.innerHTML = winsCount;
     }
     if (usuario === "s" && computadora === "r") {
-        respuesta.innerHTML = "Ganó <bold>Machine</bold> con Roca!";
+        respuesta.innerHTML = "Ganó <bold>tu oponente</bold> con Roca!";
         losesCount = losesCount + 1;
         loses.innerHTML = losesCount;
     } else if (usuario === "p" && computadora === "s") {
-        respuesta.innerHTML = "Ganó <bold>Machine</bold> con Tijeras!";
+        respuesta.innerHTML = "Ganó <bold>tu oponente</bold> con Tijeras!";
         losesCount = losesCount + 1;
         loses.innerHTML = losesCount;
     } else if (usuario === "r" && computadora === "p") {
-        respuesta.innerHTML = "Ganó <bold>Machine</bold> con Papel!";
+        respuesta.innerHTML = "Ganó <bold>tu oponente</bold> con Papel!";
         losesCount = losesCount + 1;
         loses.innerHTML = losesCount;
     }
